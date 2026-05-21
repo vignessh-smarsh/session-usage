@@ -54,7 +54,7 @@ class SessionUsageApplicationTests {
   }
 
   @Test
-  void fixedCursorLeaks() {
+  void fixesCursorLeaks() {
     MongoCollection<Document> collection = client.getDatabase("test").getCollection("test");
     MongoQueryException caughtException = null;
 
