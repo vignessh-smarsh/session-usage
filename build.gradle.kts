@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-    implementation("org.mongodb:mongodb-driver-sync:4.6.1")
+    implementation("org.mongodb:mongodb-driver-sync:5.5.0")
     compileOnly("org.projectlombok:lombok:1.18.34")
     testImplementation("org.junit.jupiter:junit-jupiter:5.11.4")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.11.4")
